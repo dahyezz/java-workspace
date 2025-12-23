@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    default: local
+    active: local
+  main:
+    allow-circular-references: true
+  security:
+    user:
+      password: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    default-property-inclusion: non_null

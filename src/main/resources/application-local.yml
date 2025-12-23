@@ -1,0 +1,40 @@
+db:
+  oracle:
+    url: ${ORACLE_URL}
+    user: ${ORACLE_USER}
+    password: ${ORACLE_PASSWORD}
+
+  postgres:
+    url: ${POSTGRES_URL}
+    user: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+
+  mysql:
+    url: ${MYSQL_URL}
+    user: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
+
+  mariadb:
+    url: ${MARIADB_URL}
+    user: ${MARIADB_USER}
+    password: ${MARIADB_PASSWORD}
+
+  sqlserver:
+    url: ${SQL_SERVER_URL}
+    user: ${SQL_SERVER_USER}
+    password: ${SQL_SERVER_PASSWORD}
+
+  h2:
+    url: ${H2_URL}
+    user: ${H2_USER}
+    password: ${H2_PASSWORD}
+
+  cubrid:
+    url: ${CUBRID_URL}
+    user: ${CUBRID_USER}
+    password: ${CUBRID_PASSWORD}
+
+  bigquery:
+    projectId: ${BIGQUERY_PROJECT_ID}
+    oauthServiceAccountEmail: ${BIGQUERY_OAUTH_SERVICE_ACCOUNT_EMAIL}
+    OAuthPvtKeyPath: ${BIGQUERY_OAUTH_PVT_KEY_PATH}
