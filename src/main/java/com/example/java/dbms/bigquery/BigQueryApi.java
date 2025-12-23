@@ -19,7 +19,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @Log4j2
 public class BigQueryApi  {
-
+// API 이용 테스트
   @Value("${db.bigquery.projectId}")
   private String projectId;
   @Value("${db.bigquery.oauthServiceAccountEmail}")
